@@ -1,18 +1,18 @@
 //
-//  UKKitTests.m
-//  UKKitTests
+//  UKKitDemoTests.m
+//  UKKitDemoTests
 //
 //  Created by Paul Stringer on 08/03/2014.
-//  Copyright (c) 2014 Paul Stringer. All rights reserved.
+//  Copyright (c) 2014 UKKit. All rights reserved.
 //
 
 #import <XCTest/XCTest.h>
 
-@interface UKKitTests : XCTestCase
+@interface UKKitDemoTests : XCTestCase
 
 @end
 
-@implementation UKKitTests
+@implementation UKKitDemoTests
 
 - (void)setUp
 {
