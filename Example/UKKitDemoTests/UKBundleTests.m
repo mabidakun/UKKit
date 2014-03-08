@@ -33,9 +33,9 @@
 
 #pragma mark - Bundle Resource Tests
 
-- (void)testGivenSetup_LocalizableStrings_AreLocalized {
-	XCTAssertNotEqualObjects(NSLocalizedString(_key, nil),_key);
-	XCTAssertNotEqualObjects(NSLocalizedStringFromTable(_key, _table, nil),_key);
+- (void)testLocalizableStrings_AreLocalized {
+	XCTAssertNotEqualObjects(NSLocalizedString(_key, nil), _key);
+	XCTAssertNotEqualObjects(NSLocalizedStringFromTable(_key, _table, nil), _key);
 	XCTAssertNotEqualObjects(NSLocalizedStringFromTableInBundle(_key, nil, _bundle, nil), _key);
 }
 
