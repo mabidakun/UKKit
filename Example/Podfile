@@ -1,7 +1,7 @@
 pod "UKKit", :path => "../UKKit.podspec"
 
-target "Demo" do
+target "UKKit" do
 end
 
-target "DemoTests" do
+target "UKKitTests" do
 end
