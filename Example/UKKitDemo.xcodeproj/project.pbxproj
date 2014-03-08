@@ -18,7 +18,12 @@
 		8C0F6A2518CB542C00D0C1C1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C0F6A0A18CB542C00D0C1C1 /* Foundation.framework */; };
 		8C0F6A2618CB542C00D0C1C1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C0F6A0E18CB542C00D0C1C1 /* UIKit.framework */; };
 		8C0F6A2E18CB542C00D0C1C1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8C0F6A2C18CB542C00D0C1C1 /* InfoPlist.strings */; };
-		8C0F6A3018CB542C00D0C1C1 /* UKKitDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C0F6A2F18CB542C00D0C1C1 /* UKKitDemoTests.m */; };
+		8C0F6A4318CB55D900D0C1C1 /* UKBundleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C0F6A4218CB55D900D0C1C1 /* UKBundleTests.m */; };
+		8C0F6A4618CB575100D0C1C1 /* UKBundle.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C0F6A4518CB575100D0C1C1 /* UKBundle.m */; };
+		8C0F6A4718CB575600D0C1C1 /* UKBundle.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C0F6A4518CB575100D0C1C1 /* UKBundle.m */; };
+		8C0F6A9918CB5F1800D0C1C1 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8C0F6A9718CB5F1800D0C1C1 /* Localizable.strings */; };
+		8C0F6A9C18CB623100D0C1C1 /* LocalizableTable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8C0F6A9A18CB623100D0C1C1 /* LocalizableTable.strings */; };
+		8C0F6A9F18CB63D900D0C1C1 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8C0F6A9D18CB63D900D0C1C1 /* Localizable.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,7 +52,14 @@
 		8C0F6A2318CB542C00D0C1C1 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		8C0F6A2B18CB542C00D0C1C1 /* UKKitDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UKKitDemoTests-Info.plist"; sourceTree = "<group>"; };
 		8C0F6A2D18CB542C00D0C1C1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		8C0F6A2F18CB542C00D0C1C1 /* UKKitDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UKKitDemoTests.m; sourceTree = "<group>"; };
+		8C0F6A3F18CB559A00D0C1C1 /* .gitkeep */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		8C0F6A4118CB559A00D0C1C1 /* .gitkeep */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		8C0F6A4218CB55D900D0C1C1 /* UKBundleTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UKBundleTests.m; path = UKKitDemoTests/UKBundleTests.m; sourceTree = SOURCE_ROOT; };
+		8C0F6A4418CB575100D0C1C1 /* UKBundle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UKBundle.h; sourceTree = "<group>"; };
+		8C0F6A4518CB575100D0C1C1 /* UKBundle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UKBundle.m; sourceTree = "<group>"; };
+		8C0F6A9818CB5F1800D0C1C1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		8C0F6A9B18CB623100D0C1C1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/LocalizableTable.strings; sourceTree = "<group>"; };
+		8C0F6A9E18CB63D900D0C1C1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +119,7 @@
 		8C0F6A1018CB542C00D0C1C1 /* UKKitDemo */ = {
 			isa = PBXGroup;
 			children = (
+				8C0F6A3C18CB559A00D0C1C1 /* Classes */,
 				8C0F6A1918CB542C00D0C1C1 /* UKAppDelegate.h */,
 				8C0F6A1A18CB542C00D0C1C1 /* UKAppDelegate.m */,
 				8C0F6A1C18CB542C00D0C1C1 /* Images.xcassets */,
@@ -122,6 +135,8 @@
 				8C0F6A1318CB542C00D0C1C1 /* InfoPlist.strings */,
 				8C0F6A1618CB542C00D0C1C1 /* main.m */,
 				8C0F6A1818CB542C00D0C1C1 /* UKKitDemo-Prefix.pch */,
+				8C0F6A9718CB5F1800D0C1C1 /* Localizable.strings */,
+				8C0F6A9A18CB623100D0C1C1 /* LocalizableTable.strings */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -129,7 +144,6 @@
 		8C0F6A2918CB542C00D0C1C1 /* UKKitDemoTests */ = {
 			isa = PBXGroup;
 			children = (
-				8C0F6A2F18CB542C00D0C1C1 /* UKKitDemoTests.m */,
 				8C0F6A2A18CB542C00D0C1C1 /* Supporting Files */,
 			);
 			path = UKKitDemoTests;
@@ -140,8 +154,54 @@
 			children = (
 				8C0F6A2B18CB542C00D0C1C1 /* UKKitDemoTests-Info.plist */,
 				8C0F6A2C18CB542C00D0C1C1 /* InfoPlist.strings */,
+				8C0F6A9D18CB63D900D0C1C1 /* Localizable.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8C0F6A3C18CB559A00D0C1C1 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				8C0F6A3D18CB559A00D0C1C1 /* cocoa */,
+				8C0F6A3E18CB559A00D0C1C1 /* ios */,
+				8C0F6A4018CB559A00D0C1C1 /* osx */,
+			);
+			name = Classes;
+			path = ../../Classes;
+			sourceTree = "<group>";
+		};
+		8C0F6A3D18CB559A00D0C1C1 /* cocoa */ = {
+			isa = PBXGroup;
+			children = (
+				8C0F6A4818CB579400D0C1C1 /* UKBundle */,
+			);
+			path = cocoa;
+			sourceTree = "<group>";
+		};
+		8C0F6A3E18CB559A00D0C1C1 /* ios */ = {
+			isa = PBXGroup;
+			children = (
+				8C0F6A3F18CB559A00D0C1C1 /* .gitkeep */,
+			);
+			path = ios;
+			sourceTree = "<group>";
+		};
+		8C0F6A4018CB559A00D0C1C1 /* osx */ = {
+			isa = PBXGroup;
+			children = (
+				8C0F6A4118CB559A00D0C1C1 /* .gitkeep */,
+			);
+			path = osx;
+			sourceTree = "<group>";
+		};
+		8C0F6A4818CB579400D0C1C1 /* UKBundle */ = {
+			isa = PBXGroup;
+			children = (
+				8C0F6A4218CB55D900D0C1C1 /* UKBundleTests.m */,
+				8C0F6A4418CB575100D0C1C1 /* UKBundle.h */,
+				8C0F6A4518CB575100D0C1C1 /* UKBundle.m */,
+			);
+			name = UKBundle;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -221,6 +281,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				8C0F6A1518CB542C00D0C1C1 /* InfoPlist.strings in Resources */,
+				8C0F6A9918CB5F1800D0C1C1 /* Localizable.strings in Resources */,
+				8C0F6A9C18CB623100D0C1C1 /* LocalizableTable.strings in Resources */,
 				8C0F6A1D18CB542C00D0C1C1 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -230,6 +292,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8C0F6A2E18CB542C00D0C1C1 /* InfoPlist.strings in Resources */,
+				8C0F6A9F18CB63D900D0C1C1 /* Localizable.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -241,6 +304,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8C0F6A1B18CB542C00D0C1C1 /* UKAppDelegate.m in Sources */,
+				8C0F6A4618CB575100D0C1C1 /* UKBundle.m in Sources */,
 				8C0F6A1718CB542C00D0C1C1 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -249,7 +313,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8C0F6A3018CB542C00D0C1C1 /* UKKitDemoTests.m in Sources */,
+				8C0F6A4318CB55D900D0C1C1 /* UKBundleTests.m in Sources */,
+				8C0F6A4718CB575600D0C1C1 /* UKBundle.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,6 +343,30 @@
 				8C0F6A2D18CB542C00D0C1C1 /* en */,
 			);
 			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		8C0F6A9718CB5F1800D0C1C1 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8C0F6A9818CB5F1800D0C1C1 /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		8C0F6A9A18CB623100D0C1C1 /* LocalizableTable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8C0F6A9B18CB623100D0C1C1 /* en */,
+			);
+			name = LocalizableTable.strings;
+			sourceTree = "<group>";
+		};
+		8C0F6A9D18CB63D900D0C1C1 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8C0F6A9E18CB63D900D0C1C1 /* en */,
+			);
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -410,7 +499,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/UKKitDemo.app/UKKitDemo";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/${PRODUCT_NAME}.app/${PRODUCT_NAME}";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -444,6 +533,7 @@
 				8C0F6A3518CB542C00D0C1C1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8C0F6A3618CB542C00D0C1C1 /* Build configuration list for PBXNativeTarget "UKKitDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -452,6 +542,7 @@
 				8C0F6A3818CB542C00D0C1C1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
