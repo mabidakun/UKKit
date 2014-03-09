@@ -1,0 +1,14 @@
+PODS:
+  - UKKit (0.1.0)
+
+DEPENDENCIES:
+  - UKKit (from `../UKKit.podspec`)
+
+EXTERNAL SOURCES:
+  UKKit:
+    :path: ../UKKit.podspec
+
+SPEC CHECKSUMS:
+  UKKit: bf17969ae3545ad1ad2dcb32bc1654387a50795e
+
+COCOAPODS: 0.29.0
