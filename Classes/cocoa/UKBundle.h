@@ -6,8 +6,6 @@
 
 @interface UKBundle : NSObject
 
-- (void)someMethod;
-
 @end
 
 #define NSLocalisedString(key, comment) \

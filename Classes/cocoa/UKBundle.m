@@ -6,8 +6,4 @@
 
 @implementation UKBundle
 
-- (void)someMethod {
-	
-}
-
 @end
