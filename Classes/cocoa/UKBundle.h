@@ -9,10 +9,13 @@
 @end
 
 #define NSLocalisedString(key, comment) \
-[[NSBundle mainBundle] localizedStringForKey:(key) value:@"" table:nil]
+NSLocalizedString(key,comment)
+
 #define NSLocalisedStringFromTable(key, tbl, comment) \
-[[NSBundle mainBundle] localizedStringForKey:(key) value:@"" table:(tbl)]
+NSLocalizedStringFromTable(key, tbl, comment)
+
 #define NSLocalisedStringFromTableInBundle(key, tbl, bundle, comment) \
-[bundle localizedStringForKey:(key) value:@"" table:(tbl)]
+NSLocalizedStringFromTableInBundle(key, tbl, bundle, comment)
+
 #define NSLocalisedStringWithDefaultValue(key, tbl, bundle, val, comment) \
-[bundle localizedStringForKey:(key) value:(val) table:(tbl)]
+NSLocalizedStringWithDefaultValue(key, tbl, bundle, val, comment)
