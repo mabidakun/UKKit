@@ -9,6 +9,6 @@ EXTERNAL SOURCES:
     :path: ../UKKit.podspec
 
 SPEC CHECKSUMS:
-  UKKit: bf17969ae3545ad1ad2dcb32bc1654387a50795e
+  UKKit: edb5e4ca254ad071b7c8f6ea5ef7d5efbf917389
 
 COCOAPODS: 0.29.0
