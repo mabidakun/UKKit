@@ -18,7 +18,7 @@ it simply add the following line to your Podfile:
 
 ## Author
 
-Michael Abidakun, mike@mikeosoft.com
+Mike O. Abidakun, github@mikeosoft.co.uk
 Paul Stringer, paulstringer@mac.com
 
 
